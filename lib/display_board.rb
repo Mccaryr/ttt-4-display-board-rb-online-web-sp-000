@@ -2,5 +2,7 @@
 # out the current state.
 
 def display_board(board)
-  puts "#{board}"
-end 
+  if board.empty?
+    puts "   |   |   "
+  end
+end
